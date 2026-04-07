@@ -221,13 +221,13 @@ The robot can:
 
 ```mermaid
 graph TD
-    A[🌾 Farmer Input] -->|Soil & Climate Data| B[/crop API]
-    A -->|Leaf Photo| C[/disease API]
+    A[Farmer Input] -->|Soil and Climate Data| B[POST crop API]
+    A -->|Leaf Photo| C[POST disease API]
     B --> D[Random Forest Model]
     C --> E[ONNX Disease Model]
-    D --> F[🌱 Crop Recommendation]
-    E --> G[🍃 Disease Result + Confidence]
-    F --> H[📱 App / Robot / Dashboard]
+    D --> F[Crop Recommendation]
+    E --> G[Disease Result + Confidence]
+    F --> H[App or Robot or Dashboard]
     G --> H
 ```
 
