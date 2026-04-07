@@ -219,7 +219,6 @@ The robot can:
 
 ## 🗺️ Workflow
 
-```mermaid
 graph TD
     A[🌾 Farmer Input] -->|Soil & Climate Data| B[/crop API]
     A -->|Leaf Photo| C[/disease API]
